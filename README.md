@@ -1,26 +1,60 @@
-## Available Scripts
+## 🎥 Preview site :arrow_right: [clickHere](https://szymonrojek.github.io/react-excercises/#/)
 
-In the project directory, you can run:
+## I have used:
 
-### `npm start`
+- React Router v6
+- context
+- Higher Order Component (HOC)
+- custom hooks
+- local storage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project description:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is a responsive nav bar application written in React.js - you can log in to the app by typing a special phrase "amigos". If the phrase is correct the navigation bar will appear so you can switch between pages.
 
-### `npm test`
+I have used the Higher-Order-Component to display some data for the user. It is a function that takes a component and returns a new component. The component transforms props into UI, and a higher-order component converts a component into another component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Also, I have decided to use a React Context API - it helps to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on.
 
-### `npm run build`
+At the end, I have added a few custom hooks in the app. They allowed me to access the React ecosystem in terms of hooks, which means that I can have an access to all the known hooks like useState, useMemo, useEffect, etc.
+The main of using was that custom hook is a mechanism enables the separation of logic and view.
 
-Builds the app for production to the `build` folder.\
+## Available Scripts:
+
+**1.** Install packages in the directory:
+
+```
+npm install
+```
+
+**2.** To start development and server
+
+```
+npm start
+```
+
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
+
+**3.** Build version
+
+```
+npm run build
+```
+
+Builds the app for production to thpm se build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
+
+**4.** Gh-pages deploy
+
+```
+npm run deploy
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
