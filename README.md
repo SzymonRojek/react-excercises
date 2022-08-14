@@ -16,8 +16,7 @@ I have used the Higher-Order-Component to display some data for the user. It is 
 
 Also, I have decided to use a React Context API - it helps to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on.
 
-At the end, I have added a few custom hooks in the app. They allowed me to access the React ecosystem in terms of hooks, which means that I can have an access to all the known hooks like useState, useMemo, useEffect, etc.
-The main of using was that custom hook is a mechanism enables the separation of logic and view.
+At the end, I have added a few custom hooks in the app, which allowed me to separate the logic from view.
 
 ## Available Scripts:
 
