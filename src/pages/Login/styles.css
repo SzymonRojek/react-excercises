@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.heading {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.span-text {
+  color: green;
+}
+
+.form {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.input-phrase {
+  padding: 20px;
+}
+
+.button-login {
+  padding: 20px 20px;
+  background-color: #c21010;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  box-shadow: rgba(167, 166, 166, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+
+.error-text {
+  color: crimson;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+}

@@ -1,0 +1,11 @@
+.navigation {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e64848;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}

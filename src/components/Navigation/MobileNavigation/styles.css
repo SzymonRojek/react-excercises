@@ -1,0 +1,42 @@
+.app-bar {
+  background-color: #e64848;
+}
+
+.box-drawer {
+  padding: 10px;
+  height: 100%;
+  background-color: #e64848;
+}
+
+.box-close-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-close {
+  color: #fff;
+}
+
+.logo-container {
+  flex-grow: 1;
+}
+
+.links-box {
+  margin-top: 100px;
+}
+
+.button-logout {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 10px 30px;
+  background-color: #c21010;
+  border: none;
+  border-radius: 4;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
