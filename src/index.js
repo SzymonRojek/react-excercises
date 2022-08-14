@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import App from "./App";
 import { AuthProvider } from "./context/useAuth";
@@ -11,12 +11,12 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <Router>
+    <HashRouter>
       <AuthProvider>
         <DataProvider>
           <App />
         </DataProvider>
       </AuthProvider>
-    </Router>
+    </HashRouter>
   </StrictMode>
 );
