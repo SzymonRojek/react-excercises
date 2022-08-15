@@ -1,5 +1,5 @@
 function validationInputPhrase(phrase, secretKey) {
-  const isValid = phrase.toLowercase().match(secretKey);
+  const isValid = phrase.match(secretKey);
   const isEmpty = phrase === "";
 
   if (isEmpty) return { message: "You need to type a secret KEY!" };
